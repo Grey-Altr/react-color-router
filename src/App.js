@@ -10,7 +10,10 @@ function App() {
         <Router>
           <Switch>
             <Route exact path="/" component={Navigator} />
-            <Route path="/rgb/:r/:g/:b" component={RGB} />
+            <Route path="/rgb/:r/:g/:b">
+              <Navigator />
+              <RGB />
+            </Route>
           </Switch>
         </Router>
       </main>

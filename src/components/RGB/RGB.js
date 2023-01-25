@@ -6,7 +6,7 @@ export default function RGB() {
   return (
     <>
       <div className="background" style={{ background: `rgb(${r}, ${g}, ${b})` }}>
-        <section>{`rgb(${r}, ${g}, ${b}`}</section>
+        <section>{`rgb(${r}, ${g}, ${b})`}</section>
       </div>
     </>
   );
